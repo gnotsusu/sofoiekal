@@ -56640,16 +56640,15 @@ var AboutPage = (function () {
 }());
 __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* ViewChild */])('map'),
-    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* ElementRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* ElementRef */]) === "function" && _a || Object)
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* ElementRef */])
 ], AboutPage.prototype, "mapElement", void 0);
 AboutPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Component */])({
         selector: 'page-about',template:/*ion-inline-start:"/Users/kidsana/Documents/ionicons/sofoiekal_dev/src/pages/about/about.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      About\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n          <div>\n            <ion-buttons end>\n              <button ion-button (click)="getLocation()"><ion-icon name="locate"></ion-icon>ตำแหน่งคุณ</button>\n              <button ion-button class="button" (click)="saveMap()">บันทึกพิกัด</button>\n            </ion-buttons>\n          </div>\n          <div #map id="map" class="map"></div>\n</ion-content>\n'/*ion-inline-end:"/Users/kidsana/Documents/ionicons/sofoiekal_dev/src/pages/about/about.html"*/
     }),
-    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_geolocation__["a" /* Geolocation */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_geolocation__["a" /* Geolocation */]) === "function" && _c || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_geolocation__["a" /* Geolocation */]])
 ], AboutPage);
 
-var _a, _b, _c;
 //# sourceMappingURL=about.js.map
 
 /***/ }),
