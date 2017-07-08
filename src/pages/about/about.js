@@ -22,5 +22,7 @@ AboutPage = __decorate([
     }),
     __metadata("design:paramtypes", [NavController])
 ], AboutPage);
+
+
 export { AboutPage };
 //# sourceMappingURL=about.js.map
