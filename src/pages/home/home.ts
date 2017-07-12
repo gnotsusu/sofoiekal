@@ -1,6 +1,6 @@
+import { FormPage } from './../form/form';
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { TabsPage } from '../tabs/tabs';
 
 @Component({
   selector: 'page-home',
@@ -13,7 +13,7 @@ export class HomePage {
   }
 
   goToComplaint(){
-      this.navCtrl.push(TabsPage);
+      this.navCtrl.push(FormPage);
   }
 
 }

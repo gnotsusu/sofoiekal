@@ -1,3 +1,24 @@
 page-form {
-
+    ion-content{
+      //background-color:color($colors,primary);
+       background-image:url('../assets/images/bg_3.jpg');
+       background-size:100% auto;
+       
+    }
+    icon-card-content{
+        //background:transparent; border-style:none;
+        background-color: #ffffff;
+        opacity: 0.5;
+    }
+    
+    ion-item {
+         border-radius: 10px !important;
+        //  padding-left: 30px !important;
+         font-size: 0.9em;
+         margin-bottom: 10px;
+         border: 1px solid #ffffff;
+         border-bottom: 0px !important;
+         box-shadow: none !important;
+         background-color: transparent;
+     }
 }
