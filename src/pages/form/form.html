@@ -14,9 +14,9 @@
 <ion-header>
   <ion-navbar  hideBackButton="true">
     <button ion-button menuToggle><ion-icon name="menu"></ion-icon></button>
-    <ion-title text-center> บันทึกเรื่องร้องทุกข์/ร้องเรียน</ion-title>
+    <ion-title text-center> บันทึกเรื่อง<br>ร้องทุกข์/ร้องเรียน</ion-title>
     <ion-buttons end>
-      <button ion-button icon-only><ion-icon name="compose"></ion-icon></button>
+      <button ion-button icon-only><ion-icon name="ios-create"></ion-icon></button>
     </ion-buttons>
 
   </ion-navbar>
@@ -74,8 +74,7 @@
       <ion-item>
         <div>
             <ion-buttons end>
-              <button ion-button (click)="goToMap()"><ion-icon name="locate"></ion-icon>ตำแหน่งคุณ</button>
-              <button ion-button class="button" (click)="saveMap()">บันทึกพิกัด</button>
+              <button ion-button (click)="goToMap()"><ion-icon name="locate"></ion-icon>เลือกพิกัด</button>
             </ion-buttons>
           </div>
           <div #map id="map" class="map"></div>
@@ -90,7 +89,7 @@
       <ion-list-header>
         หลักฐานประกอบการร้องทุกข์
       </ion-list-header>
-      <ion-input type="text"></ion-input>
+      <ion-input type="file"></ion-input>
       <ion-list-header>
         ความประสงค์ในการดำเนินการของผู้ร้องทุกข์
       </ion-list-header>

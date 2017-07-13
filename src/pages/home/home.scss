@@ -1,40 +1,45 @@
+.ios,.md,.wp{
 page-home {
-
-  .row{
-    margin: 0;
+  .scroll-content{
+    padding: 0px !important;
   }
-  .button-ios{
-    padding: 60px;
-    font-size: large;
-  }
-
-  .button-md{
-    padding: 60px;
-    font-size: large;
-  }
-
-  .User-data{
-    background-color: #fff;
-    padding: 10px;
-  }
-
-  .Menu-data{
-    background-color: #fff;
-    padding: 10px;
-  }
-  //.ios,.md,.wp{
-  // page-user-forgotpassword {
-     .toolbar-background{ background:transparent; border-style:none;}
-       .toolbar::after,.header-md::after{ background-image:none;}
+  .toolbar-background{ background:transparent; border-style:none;}
+  .toolbar::after,.header-md::after{ background-image:none;}  
+     
     ion-content{
       //background-color:color($colors,primary);
        background-image:url('../assets/images/bg_3.jpg');
        background-size:100% auto;
-    }
-  //  .scroll-content { display: table; width: 100%; height: 100%; }
-  //  .centerAlign { display: table-cell; vertical-align: middle; }
+       .row{
+          margin: 0;
+        }
+        .button-ios{
+          padding: 60px;
+          font-size: large;
+        }
 
-    //.item{border:$border-color 1px solid !important; margin-bottom:10px;}
-  //}
-//}
+        .button-md{
+          padding: 60px;
+          font-size: large;
+        }
+
+        .User-data{
+          background: rgba(72,164,234,1);
+background: -moz-linear-gradient(top, rgba(72,164,234,1) 0%, rgba(31,133,229,0.48) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(72,164,234,1)), color-stop(100%, rgba(31,133,229,0.48)));
+background: -webkit-linear-gradient(top, rgba(72,164,234,1) 0%, rgba(31,133,229,0.48) 100%);
+background: -o-linear-gradient(top, rgba(72,164,234,1) 0%, rgba(31,133,229,0.48) 100%);
+background: -ms-linear-gradient(top, rgba(72,164,234,1) 0%, rgba(31,133,229,0.48) 100%);
+background: linear-gradient(to bottom, rgba(72,164,234,1) 0%, rgba(31,133,229,0.48) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48a4ea', endColorstr='#1f85e5', GradientType=0 );
+          padding: 20px;
+          width: 100%
+        }
+
+        .Menu-data{
+          background-color: #fff;
+          padding: 10px;
+        }
+    }
+}
 }
